@@ -26,18 +26,24 @@ const Home = () => {
           </motion.header>
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
-              <h1 className="head-text">
-                LET'S <br className="xl:block hidden" /> DO IT.
-              </h1>
+            <h1 className="head-text">
+             LET'S <br className="xl:block hidden" /> DO IT.
+            </h1>
+
+
+
+
               <motion.div
                 {...headContentAnimation}
                 className="flex flex-col gap-5"
               >
                 <p className="max-w-md font-normal text-gray-600 text-base">
-                  Create your unique and exclusive shirt with our brand-new 3D
-                  customziation tool. <strong>Unleash your Imagination</strong>{" "}
-                  and define your own style.
+                  Elevate your style game with TeeChroma for the Morocco World Cup 2030!
+                  Personalize your jersey in 3D and let your creativity run wild.<br/>
+                  <strong>Because your passion deserves a unique look!</strong> 
                 </p>
+
+
                 <CustomButton
                   type="filled"
                   title="Unleash Your Creativity"
