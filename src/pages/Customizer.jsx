@@ -49,7 +49,7 @@ const Customizer = () => {
     try {
       setGeneratingImg(true);
       const response = await fetch(
-        "https://tshirt-ai-sgb3.onrender.com/api/v1/dalle",
+        "https://teechroma-api.onrender.com/api/v1/dalle",
         {
           method: "POST",
           headers: {
