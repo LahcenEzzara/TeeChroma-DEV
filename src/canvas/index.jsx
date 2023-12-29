@@ -12,6 +12,7 @@ const CanvasModel = () => {
       className="w-full max-w-full h-full transition-all ease-in"
       camera={{ position: [0, 0, 0], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
+      style={{ backgroundImage: `url(bg.png)` }}
     >
       <ambientLight intensity={0.5} />
       <Environment preset="city" />
