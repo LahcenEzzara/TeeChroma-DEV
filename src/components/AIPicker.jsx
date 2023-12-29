@@ -6,7 +6,7 @@ const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
     <div className="aipicker-container">
       <textarea
         className="aipicker-textarea"
-        placeholder="This function isn't working as my OPENAI Credit have expired."
+        placeholder="Ask AI..."
         row={5}
         value={prompt}
         onChange={(e) => setPrompt(e.target.value)}
