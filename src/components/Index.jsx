@@ -4,7 +4,7 @@ function Index() {
   let [htmlFileString, setHtmlFileString] = useState();
 
   async function fetchHtml() {
-    setHtmlFileString(await (await fetch(`../static/index.html`)).text());
+    setHtmlFileString(await (await fetch(`/static/index.html`)).text());
   }
   useEffect(() => {
     fetchHtml();

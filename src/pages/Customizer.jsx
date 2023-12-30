@@ -107,7 +107,7 @@ const Customizer = () => {
   };
   return (
     <AnimatePresence>
-      {!snap.intro && (
+      {state.page == "customizer" && (
         <>
           <motion.div
             key="custom"
@@ -141,7 +141,7 @@ const Customizer = () => {
             <CustomButton
               type="filled"
               title="Go Back"
-              handleClick={() => (state.intro = true)}
+              handleClick={() => (state.page = "intro")}
               customStyles="w-fit px-4 py-2.5 font-bold text-sm"
             />
           </motion.div>
