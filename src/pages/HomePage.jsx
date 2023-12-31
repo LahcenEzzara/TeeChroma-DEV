@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet";
 
-import style from "../assets/css/libs.bundle.css";
-import styles from "../assets/css/theme.bundle.css";
+import style from "../assets/css/libs.bundle.css?inline";
+import styles from "../assets/css/theme.bundle.css?inline";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
