@@ -10,6 +10,8 @@ import {
 import state from "../store";
 import CustomButton from "../components/CustomButton";
 
+import "../index.css";
+
 const Home = () => {
   const snap = useSnapshot(state);
 

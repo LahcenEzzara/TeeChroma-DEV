@@ -4,6 +4,7 @@ import { useSnapshot } from "valtio";
 import { useFrame } from "@react-three/fiber";
 import state from "../store";
 import { Decal, useGLTF, useTexture } from "@react-three/drei";
+import "../index.css";
 
 const Shirt = () => {
   const snap = useSnapshot(state);

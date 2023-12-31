@@ -5,6 +5,7 @@ import Shirt from "./Shirt";
 import Backdrop from "./Backdrop";
 import CameraRig from "./CameraRig";
 
+import "../index.css";
 const CanvasModel = () => {
   return (
     <Canvas

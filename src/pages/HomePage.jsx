@@ -1,8 +1,8 @@
-import React from "react";
 import { Helmet } from "react-helmet";
 
-import "../assets/css/theme.bundle.css";
-import "../assets/css/libs.bundle.css";
+import style from "../assets/css/libs.bundle.css";
+import styles from "../assets/css/theme.bundle.css";
+
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -14,7 +14,7 @@ const HomePage = () => {
 
   return (
     <>
-      {snap.page === "home" && (
+      {state.page === "home" && (
         <div>
           {/* Navbar */}
           <Navbar />

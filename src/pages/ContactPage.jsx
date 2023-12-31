@@ -1,9 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-import "../assets/css/theme.bundle.css";
-import "../assets/css/libs.bundle.css";
-
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 

@@ -14,6 +14,7 @@ import {
   FilePicker,
   Tab,
 } from "../components";
+import "../index.css";
 
 const Customizer = () => {
   const snap = useSnapshot(state);

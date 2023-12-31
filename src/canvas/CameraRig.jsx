@@ -3,6 +3,7 @@ import { useFrame } from "@react-three/fiber";
 import { easing } from "maath";
 import { useSnapshot } from "valtio";
 import state from "../store";
+import "../index.css";
 
 const CameraRig = ({ children }) => {
   const snap = useSnapshot(state);

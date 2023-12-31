@@ -1,8 +1,9 @@
+import Home from "./pages/Home";
 import Canvas from "./canvas";
 import Customizer from "./pages/Customizer";
-import Home from "./pages/Home";
 
-import Layouts from "./pages/Layouts";
+import HomePage from "./pages/HomePage";
+import ContactPage from "./pages/ContactPage";
 
 import { useSnapshot } from "valtio";
 
@@ -11,7 +12,7 @@ import state from "./store";
 function App() {
   const snap = useSnapshot(state);
 
-  if (snap.page === "intro" || snap.page === "customize") {
+  if (state.page == "intro" || state.page == "customizer") {
     return (
       <main className="app transition-all ease-in">
         <Home />
@@ -21,6 +22,11 @@ function App() {
     );
   }
 
-  return <Layouts />;
+  return (
+    <>
+      <HomePage />
+      <ContactPage />
+    </>
+  );
 }
 export default App;
