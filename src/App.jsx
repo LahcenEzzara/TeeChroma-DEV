@@ -1,6 +1,7 @@
 import Home from "./pages/Home";
 import Canvas from "./canvas";
 import Customizer from "./pages/Customizer";
+import Header from "./components/Header/Header";
 
 function App() {
   return (

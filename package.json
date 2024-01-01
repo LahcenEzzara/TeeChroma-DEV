@@ -18,6 +18,9 @@
     "react-color": "^2.19.3",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
+    "react-redux": "^9.0.4",
+    "react-router-dom": "^6.21.1",
+    "reactstrap": "^9.2.1",
     "three": "^0.154.0",
     "valtio": "^1.11.0"
   },
